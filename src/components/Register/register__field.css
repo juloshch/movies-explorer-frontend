@@ -1,0 +1,13 @@
+.register__field {
+    width: 396px;
+    height: 46px;
+    background: #F9F9F9;
+    border-radius: 8px;
+    border: none;
+    margin-bottom: 20px;
+    padding: 0px;
+}
+
+.register__field:last-of-type {
+    margin-bottom: 10px;
+}

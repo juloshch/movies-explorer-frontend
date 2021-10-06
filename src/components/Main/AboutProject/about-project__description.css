@@ -1,0 +1,7 @@
+.about-project__description {
+    display: grid;
+    grid-template-columns: 550px 550px;
+    grid-column-gap: 40px;
+    padding-top: 70px;
+    padding-bottom: 110px;
+}

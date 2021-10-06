@@ -1,0 +1,13 @@
+.promo-header__signup-button {
+    background-color: #2BE080;
+    width: 76px;
+    height: 32px;
+    margin-right: 70px;
+    border-radius: 3px;
+    border: none;
+}
+
+.promo-header__signup-button:hover {
+    opacity: 0.6;
+    cursor: pointer;
+}

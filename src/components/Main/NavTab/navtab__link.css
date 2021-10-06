@@ -1,0 +1,18 @@
+.navtab__link {
+    color: #FFFFFF;
+    margin-right: 40px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 16px;
+}
+
+.navtab__link:hover {
+    opacity: 0.6;
+}
+
+.navtab__link:last-child {
+    margin-right: 0px;
+}
+

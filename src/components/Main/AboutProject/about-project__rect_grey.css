@@ -1,0 +1,8 @@
+.about-project__rect_grey{
+    width: 912px;
+    height: 36px;
+    background-color: #F2F2F2;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}

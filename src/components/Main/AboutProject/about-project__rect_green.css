@@ -1,0 +1,8 @@
+.about-project__rect_green {
+    width: 228px;
+    height: 36px;
+    background-color: #2BE080;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}

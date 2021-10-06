@@ -1,0 +1,9 @@
+.about-project__rect_long {
+    width: 912px;
+    height: 36px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    color: #A0A0A0;
+    margin-bottom: 110px;
+}

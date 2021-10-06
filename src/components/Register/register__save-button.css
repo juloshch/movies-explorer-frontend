@@ -1,0 +1,15 @@
+.register__save-button {
+    width: 396px;
+    height: 42px;
+    background: #3456F3;
+    border-radius: 3px;
+    color: #FFFFFF;
+    border: none;
+    margin-top: 91px;
+    margin-bottom: 16px;
+}
+
+.register__save-button:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}

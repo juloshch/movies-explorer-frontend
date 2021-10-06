@@ -1,0 +1,10 @@
+.techs__block {
+    width: 90px;
+    height: 60px;
+    border-radius: 10px;
+    background-color: #E8E8E8;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin-right: 10px;
+}
