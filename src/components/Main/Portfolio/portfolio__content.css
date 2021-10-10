@@ -1,5 +1,4 @@
 .portfolio__content {
-    padding-left: 70px;
     margin-top: 0px;
     margin-bottom: 0px;
     font-family: Inter;
@@ -9,4 +8,10 @@
     line-height: 50px;
     letter-spacing: -0.04em;
     color: #000000;
+}
+
+@media screen and (max-width: 768px) {
+    .portfolio__content {
+        font-size: 28px;
+    }
 }

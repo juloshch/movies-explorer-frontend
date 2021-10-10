@@ -1,0 +1,11 @@
+.portfolio__blocks {
+    margin-right: 70px;
+    margin-left: 70px;
+}
+
+@media screen and (max-width: 768px) {
+    .portfolio__blocks {
+        margin-right: 50px;
+        margin-left: 50px;
+    }
+}

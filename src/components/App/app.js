@@ -5,6 +5,7 @@ import Register from '../Register/Register';
 import Login from '../Login/Login';
 import Profile from '../Profile/Profile';
 import Movies from '../Movies/Movies';
+import NotFound from '../NotFound/NotFound';
 
 function App () {
     return (
@@ -21,8 +22,11 @@ function App () {
             <Route path='/movies'>
                 <Movies />
             </Route>
-            <Route path='/'>
+            <Route exact path='/'>
                 <Main/>
+            </Route>
+            <Route path=''>
+                <NotFound/>
             </Route>
 
             {/* <ProtectedRoute

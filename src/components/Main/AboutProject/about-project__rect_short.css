@@ -7,3 +7,12 @@
     color: #A0A0A0;
     margin-bottom: 110px;
 }
+
+@media screen and (max-width: 768px) {
+    .about-project__rect_short {
+        width: 140px;
+        font-size: 14px;
+        line-height: 17px;
+        margin-bottom: 90px;
+    }
+}

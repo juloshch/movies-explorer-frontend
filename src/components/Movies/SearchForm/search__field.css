@@ -1,0 +1,25 @@
+.search__field {
+    width: 852px;
+    height: 48px;
+    border: none;
+    font-size: 10pt;
+    float: left;
+    border: 1px solid #E8E8E8;
+    padding-right: 88px;
+    padding-left: 22px;
+    border-radius: 24px;
+    color: #A0A0A0;
+    /* margin-left: 70px; */
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    /* align-items: center; */
+    vertical-align: middle;
+}
+
+/* .search__field::-webkit-input-placeholder {
+    text-align: center;
+ } */

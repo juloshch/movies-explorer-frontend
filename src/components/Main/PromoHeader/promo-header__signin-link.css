@@ -12,3 +12,10 @@
     opacity: 0.6;
     cursor: pointer;
 }
+
+@media screen and (max-width: 320px) {
+    .promo-header__signin-link {
+        padding-right: 14px;
+        font-size: 10px;
+    }
+}

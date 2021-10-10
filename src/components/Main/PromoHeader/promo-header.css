@@ -8,3 +8,13 @@
     justify-content: space-between;
     align-items: center;
 }
+
+@media screen and (max-width: 1024px) {
+    .promo-header {
+        /* width: 100%; */
+        max-width: 1024px;
+        /* min-height: 56px; */
+        /* padding-top: 28px; */
+        margin: 0px auto;
+    }
+}

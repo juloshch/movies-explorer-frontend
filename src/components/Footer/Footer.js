@@ -5,7 +5,7 @@ function Footer() {
     return (
         <section className="footer">
             <p className="footer__text">Учебный проект Яндекс.Практикум х BeatFilm.</p>
-            <hr className="portfolio__line"></hr>
+            <hr className="footer__line"></hr>
             <div className="footer__bottom">
                 <p className="footer__date">© 2020</p>
                 <ul className="footer__links">

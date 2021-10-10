@@ -1,0 +1,15 @@
+.search-form {
+    width: 932px;
+    height: 48px;
+    border-radius: 50%;
+    border-color: #E8E8E8;
+    /* display: flex;
+    justify-content: space-between; */
+    /* align-items: center; */
+    vertical-align: middle;
+    white-space: nowrap;
+    position: relative;
+    /* margin: 70px auto 70px; */
+    margin-top: 70px;
+    margin-bottom: 80px;
+}

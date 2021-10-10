@@ -3,3 +3,9 @@
     margin: 0px auto 0px; 
     padding-bottom: 101px;
 }
+
+@media screen and (max-width: 768px) {
+    .about-me {
+        padding-bottom: 90px;
+    }
+}

@@ -6,3 +6,17 @@
     margin-top: 19px;
     margin-bottom: 20px;
 }
+
+@media screen and (max-width: 768px) {
+    .portfolio__line {
+        width: 668px;
+        margin: 19px auto 20px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .portfolio__line {
+        width: 924px;
+        /* margin: 19px auto 20px; */
+    }
+}

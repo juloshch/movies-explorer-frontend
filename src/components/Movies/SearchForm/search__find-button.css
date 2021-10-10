@@ -1,0 +1,14 @@
+.search__find-button {
+    position: absolute;
+    top: 50%;
+    margin-left: -95px;
+    margin-top: -18px;
+    z-index: 1;
+    background-color: transparent;
+    border: none;
+}
+
+.search__find-button:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
