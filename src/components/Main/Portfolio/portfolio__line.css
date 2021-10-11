@@ -1,5 +1,5 @@
 .portfolio__line {
-    width: 1140px;
+    /* width: 1140px; */
     height: 1px;
     background-color: #E6E6E6;
     border-width: 0px;
@@ -7,16 +7,27 @@
     margin-bottom: 20px;
 }
 
-@media screen and (max-width: 768px) {
+
+
+@media screen and (max-width: 1024px) {
     .portfolio__line {
-        width: 668px;
+        /* max-width: 884px; */
         margin: 19px auto 20px;
     }
 }
 
-@media screen and (max-width: 1024px) {
+
+
+@media screen and (max-width: 768px) {
     .portfolio__line {
-        width: 924px;
+        max-width: 668px;
         /* margin: 19px auto 20px; */
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .portfolio__line {
+        max-width: 292px;
+        /* margin: 14px auto 14px; */
     }
 }

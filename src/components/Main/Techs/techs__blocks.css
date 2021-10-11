@@ -15,3 +15,27 @@
         line-height: 15px;
     }
 }
+
+@media screen and (max-width:590px) {
+    .techs__blocks {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 10px;
+        grid-row-gap: 10px;
+        padding-top: 50px;
+        padding-bottom: 70px;
+        justify-items: center;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .techs__blocks {
+        display: grid;
+        grid-template-columns: 87px 87px;
+        grid-column-gap: 10px;
+        grid-row-gap: 10px;
+        padding-top: 50px;
+        padding-bottom: 70px;
+    }
+}

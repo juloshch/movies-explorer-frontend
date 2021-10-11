@@ -15,10 +15,10 @@ function Main() {
             <Promo></Promo>
             <Navtab></Navtab>
             <AboutProject></AboutProject>
-            {/* <Techs></Techs> */}
-            {/* <AboutMe></AboutMe> */}
-            {/* <Portfolio></Portfolio> */}
-            {/* <Footer></Footer> */}
+            <Techs></Techs>
+            <AboutMe></AboutMe>
+            <Portfolio></Portfolio>
+            <Footer></Footer>
         </div>
     )
 }

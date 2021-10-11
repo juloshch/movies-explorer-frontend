@@ -9,3 +9,10 @@
         margin-left: 50px;
     }
 }
+
+@media screen and (max-width: 320px) {
+    .portfolio__blocks {
+        margin-right: 14px;
+        margin-left: 14px;
+    }
+}
