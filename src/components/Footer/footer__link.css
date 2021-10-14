@@ -7,6 +7,8 @@
     font-weight: normal;
     font-size: 13px;
     line-height: 16px;
+    background-color: transparent;
+    border: none;
 }
 
 .footer__link:hover {

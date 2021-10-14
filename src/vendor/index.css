@@ -123,6 +123,7 @@
 @import url('../components/NotFound/not-found.css');
 @import url('../components/NotFound/not-found__text.css');
 @import url('../components/NotFound/not-found__title.css');
+@import url('../components/NotFound/not-found__link.css');
 
 @import url('../components/Navigation/nav-menu.css');
 @import url('../components/Navigation/nav-menu_is-opened.css');

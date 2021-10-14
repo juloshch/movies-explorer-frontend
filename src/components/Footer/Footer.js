@@ -1,5 +1,4 @@
 import '../../vendor/index.css';
-import { Link } from 'react-router-dom';
 
 function Footer() {
     return (
@@ -9,9 +8,9 @@ function Footer() {
             <div className="footer__bottom">
                 <p className="footer__date">© 2020</p>
                 <ul className="footer__links">
-                    <Link className="footer__link">Яндекс.Практикум</Link>
-                    <Link className="footer__link">Github</Link>
-                    <Link className="footer__link">Facebook</Link>
+                    <button onClick={() => { window.location.href = 'https://practicum.yandex.ru';}}  className="footer__link">Яндекс.Практикум</button>
+                    <button onClick={() => { window.location.href = 'https://github.com';}}  className="footer__link">Github</button>
+                    <button onClick={() => { window.location.href = 'https://facebook.com';}}  className="footer__link">Facebook</button>
                 </ul>
             </div>
         </section>

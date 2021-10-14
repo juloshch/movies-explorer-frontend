@@ -8,9 +8,9 @@ function PromoHeader() {
             <img className="promo-header__logo" src={logoImage} alt={"Лого"} />
             <div>
                 <Link to="/sign-up" className="promo-header__signin-link">Регистрация</Link>
-                <button className="promo-header__signup-button" type="submit">
+                <Link to="/sign-in" className="promo-header__signup-button" >
                     Войти
-                </button>
+                </Link>
             </div>
         </section>
     );

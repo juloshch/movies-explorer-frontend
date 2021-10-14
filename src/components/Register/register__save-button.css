@@ -13,3 +13,9 @@
     opacity: 0.8;
     cursor: pointer;
 }
+
+@media screen and (max-width: 320px) {
+    .register__save-button {
+        width: 260px;
+    }
+}

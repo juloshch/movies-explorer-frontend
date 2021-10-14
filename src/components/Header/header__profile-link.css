@@ -1,3 +1,7 @@
+.header__profile-link {
+    height: 55px;
+}
+
 .header__profile-link:hover {
     opacity: 0.7;
     cursor: pointer;

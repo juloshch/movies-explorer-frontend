@@ -1,7 +1,9 @@
 .promo-header__signup-button {
     background-color: #2BE080;
-    width: 76px;
-    height: 32px;
+    /* width: 76px;
+    height: 32px; */
+    padding: 8px 20px;
+    opacity: 100;
     margin-right: 70px;
     border-radius: 3px;
     border: none;
@@ -10,6 +12,9 @@
     font-weight: 500;
     font-size: 12px;
     line-height: 16px;
+    color: #000000;
+    text-decoration: none;
+
 }
 
 .promo-header__signup-button:hover {

@@ -14,7 +14,7 @@ function Register() {
                         <input type="E-mail" placeholder="E-mail" className="register__field" required/>
                         <p className="register__field_name">Пароль</p>
                         <input type="password" placeholder="" className="register__field register__field_last" required/>
-                        {/* <span className="register__input-error">Что-то пошло не так...</span> */}
+                        <span className="register__input-error">Что-то пошло не так...</span>
                         <button className="register__save-button" type="submit">
                             Зарегистрироваться
                         </button>

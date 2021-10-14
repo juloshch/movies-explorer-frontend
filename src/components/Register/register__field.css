@@ -11,3 +11,10 @@
 .register__field:last-of-type {
     margin-bottom: 10px;
 }
+
+@media screen and (max-width: 320px) {
+    .register__field {
+        width: 260px;
+        
+    }
+}

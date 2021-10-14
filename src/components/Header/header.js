@@ -4,8 +4,6 @@ import profileLink from '../../images/link-to-profile.svg';
 import menuIcon from '../../images/header-menu-icon.svg';
 import React from 'react';
 
-import Navigation from '../Navigation/navigation';
-
 function Header( {isNavMenuOpen, handleMenuOpen, handleMenuClose} ) {
     
 
@@ -16,7 +14,7 @@ function Header( {isNavMenuOpen, handleMenuOpen, handleMenuClose} ) {
             <div className="header__links">
                 <Link to="/movies" className="header__link">Фильмы</Link>
                 <Link to="/saved-movies" className="header__link">Сохранённые фильмы</Link>
-                <Link to="/profile" className="header__link header__profile-link"><img src={profileLink} className="" alt="ссылка на профиль пользователя"></img></Link>
+                <Link to="/profile" className="header__link header__profile-link"><img src={profileLink} alt="ссылка на профиль пользователя"></img></Link>
             </div>
             <div className="header__menu-button" onClick={handleMenuOpen} > 
                 <img className="header__menu-button" src={menuIcon} alt="меню"></img>

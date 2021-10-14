@@ -1,5 +1,12 @@
 .profile__form {
-    width: 410px;
+    width: 53%;
+    /* max-width: 410px; */
     /* margin: 74px auto 0px; */
-    position: relative;
+    /* position: relative; */
+}
+
+@media screen and (max-width: 320px) {
+    .profile__form {
+        width: 81%
+    }
 }
