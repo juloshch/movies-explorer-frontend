@@ -1,0 +1,12 @@
+.profile__form_name {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 13px;
+    color: #000000;
+
+    white-space: nowrap;
+    margin-top: 16px;
+    margin-bottom: 17px;
+}

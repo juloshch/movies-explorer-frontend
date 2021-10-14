@@ -1,0 +1,25 @@
+.about-project__rect_grey{
+    width: 912px;
+    height: 36px;
+    background-color: #F2F2F2;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+    .about-project__rect_grey {
+        width: 528px;
+        font-size: 14px;
+        line-height: 17px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .about-project__rect_grey {
+        width: 184px;
+        height: 35px;
+        font-size: 11px;
+        line-height: 13px;
+    }
+}

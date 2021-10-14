@@ -1,0 +1,35 @@
+.about-me__info {
+    margin-bottom: 99px;
+    max-width: 600px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    color: #000000;
+    /* width: 600px; */
+
+}
+
+@media screen and (max-width: 768px) {
+    .about-me__info {
+        max-width: 364px;
+        font-size: 12px;
+        line-height: 18px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .about-me__info {
+        max-width: 460px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .about-me__info {
+        max-width: 292px;
+        font-size: 11px;
+        line-height: 16px;
+        margin-bottom: 40px;
+    }
+}

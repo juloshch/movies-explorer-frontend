@@ -1,0 +1,19 @@
+.techs__paragraph {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: -0.04em;
+    color: #000000;
+    max-width: 460px;
+    margin: 0px auto 0px;
+}
+
+@media screen and (max-width:320px) {
+    .techs__paragraph {
+        font-size: 11px;
+        line-height: 14px;
+    }
+}

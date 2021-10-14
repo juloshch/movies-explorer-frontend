@@ -1,0 +1,21 @@
+.promo-header__signin-link {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding-right: 30px;
+}
+
+.promo-header__signin-link:hover {
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 320px) {
+    .promo-header__signin-link {
+        padding-right: 14px;
+        font-size: 10px;
+    }
+}

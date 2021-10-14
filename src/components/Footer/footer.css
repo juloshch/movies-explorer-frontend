@@ -1,0 +1,21 @@
+.footer {
+    min-height: 172px;
+    padding-top: 79px;
+    padding-bottom: 20px;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+@media screen and (max-width: 768px) {
+    .footer {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .footer {
+        margin-left: 14px;
+        margin-right: 14px;
+    }
+}

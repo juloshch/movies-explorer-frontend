@@ -1,0 +1,26 @@
+.portfolio__title {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 20px;
+    color: #A0A0A0;
+    padding-left: 70px;
+    padding-bottom: 50px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+@media screen and (max-width: 768px) {
+    .portfolio__title {
+        padding-left: 50px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .portfolio__title {
+        padding-left: 14px;
+        padding-bottom: 40px;
+        font-size: 14px;
+    }
+}

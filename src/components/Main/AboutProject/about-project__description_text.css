@@ -1,0 +1,26 @@
+.about-project__description_text {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    max-width: 550px;
+}
+
+@media screen and (max-width: 768px) {
+    .about-project__description_text {
+        font-size: 12px;
+        line-height: 18px;
+        font-size: 12px;
+        line-height: 18px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .about-project__description_text {
+        margin-bottom: 0px;
+        margin-top: 0px;
+        font-size: 11px;
+        line-height: 16px;
+    }
+}

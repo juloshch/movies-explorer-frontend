@@ -1,0 +1,19 @@
+.promo__text {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 58px;
+    text-align: center;
+    color: #FFFFFF;
+    max-width: 730px;
+}
+
+@media screen and (max-width: 320px) {
+    .promo__text {
+        font-size: 31px;
+        line-height: 39px;
+        max-width: 300px;
+        letter-spacing: -0.04em;
+    }
+}

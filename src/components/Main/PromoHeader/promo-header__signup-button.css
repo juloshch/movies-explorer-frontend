@@ -1,0 +1,33 @@
+.promo-header__signup-button {
+    background-color: #2BE080;
+    /* width: 76px;
+    height: 32px; */
+    padding: 8px 20px;
+    opacity: 100;
+    margin-right: 70px;
+    border-radius: 3px;
+    border: none;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    color: #000000;
+    text-decoration: none;
+
+}
+
+.promo-header__signup-button:hover {
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 320px) {
+    .promo-header__signup-button {
+        margin-right: 14px;
+        width: 54px;
+        height: 26px;
+        font-size: 10px;
+        line-height: 16px;
+    }
+}

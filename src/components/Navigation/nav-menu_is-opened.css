@@ -1,0 +1,4 @@
+.nav-menu_is-opened {
+    visibility: visible;
+    /* display: flex; */
+}

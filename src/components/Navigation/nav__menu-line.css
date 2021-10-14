@@ -1,0 +1,10 @@
+.nav__menu-line {
+    height: 2px;
+    width: 72px;
+    background-color: #000000;
+    border-width: 0px;
+    margin-top: 4px;
+    margin-bottom: 22px;
+    margin-right: 82px;
+    /* margin-right: 230px; */
+}

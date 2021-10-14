@@ -1,0 +1,13 @@
+.profile__change-error {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 13px;
+    text-align: center;
+
+    color: #FF004C;
+    margin-top: 189px;
+
+    display: none;
+}

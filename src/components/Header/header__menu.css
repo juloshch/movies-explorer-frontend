@@ -1,0 +1,19 @@
+.header__menu {
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    .header__menu {
+        display: inline;
+
+        /* width: 524px;
+        height: 100%;
+        background: rgb(255, 255, 255);
+        border-right: 1px solid #000; */
+        /* position: fixed;
+        top: 0;
+        right: 0; */
+        /* transition: right .5s;
+        z-index: 4; */
+    }
+}

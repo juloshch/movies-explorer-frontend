@@ -1,0 +1,32 @@
+.search-form__container {
+    margin-left: 70px;
+    margin-right: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+@media screen and (max-width: 1024px) {
+    .search-form__container {
+        flex-direction: column;
+        /* margin-left: 30px;
+        margin-right: 30px; */
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .search-form__container {
+        flex-direction: column;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .search-form__container {
+        flex-direction: column;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}

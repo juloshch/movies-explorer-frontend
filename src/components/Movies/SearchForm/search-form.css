@@ -1,0 +1,30 @@
+.search-form {
+    width: 100%;
+    /* max-width: 932px; */
+    height: 48px;
+    border-radius: 50%;
+    border-color: #E8E8E8;
+    /* display: flex;
+    justify-content: space-between; */
+    /* align-items: center; */
+    vertical-align: middle;
+    white-space: nowrap;
+    position: relative;
+    /* margin: 70px auto 70px; */
+    margin-top: 70px;
+    margin-bottom: 80px;
+}
+
+@media screen and (max-width: 768px) {
+    .search-form {
+        /* max-width: 708px; */
+        margin-top: 60px;
+        margin-bottom: 38px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .search-form {
+        margin-bottom: 45px;
+    }
+}

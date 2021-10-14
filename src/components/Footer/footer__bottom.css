@@ -1,0 +1,11 @@
+.footer__bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media screen and (max-width: 498px) {
+    .footer__bottom {
+        flex-direction: column-reverse;
+    }
+}
