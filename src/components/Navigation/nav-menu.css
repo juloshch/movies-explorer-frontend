@@ -1,0 +1,26 @@
+.nav-menu {
+    width: 520px;
+    height: 100vh;
+    background: rgb(255, 255, 255);
+    position: fixed;
+    top: 0;
+    right: 0;
+    transition: right .5s;
+    z-index: 10;
+    
+
+    /* display: none; */
+    display: flex;
+    flex-direction: column;
+
+    visibility: hidden;
+    /* opacity: 0; */
+
+    /* position: fixed;
+    top: 0;
+    right: o;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; */
+}

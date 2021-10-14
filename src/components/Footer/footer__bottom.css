@@ -2,11 +2,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* margin-left: 70px; */
-    /* margin-right: 70px; */
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 498px) {
     .footer__bottom {
         flex-direction: column-reverse;
     }

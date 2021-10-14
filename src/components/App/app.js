@@ -6,6 +6,7 @@ import Login from '../Login/Login';
 import Profile from '../Profile/Profile';
 import Movies from '../Movies/Movies';
 import NotFound from '../NotFound/NotFound';
+import SavedMovies from '../SavedMovies/SavedMovies';
 
 function App () {
     return (
@@ -21,6 +22,9 @@ function App () {
             </Route>
             <Route path='/movies'>
                 <Movies />
+            </Route>
+            <Route path='/saved-movies'>
+                <SavedMovies />
             </Route>
             <Route exact path='/'>
                 <Main/>

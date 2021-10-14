@@ -1,0 +1,16 @@
+.filter-checkbox__container {
+    margin-left: 41px;
+    /* margin-right: 70px; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+    .filter-checkbox__container {
+        display: flex;
+        margin-bottom: 44px;
+        /* flex-direction: column; */
+    }
+}

@@ -89,6 +89,8 @@
 @import url('../components/Header/header__link.css');
 @import url('../components/Header/header__saved-movies-link.css');
 @import url('../components/Header/header__profile-link.css');
+@import url('../components/Header/header__menu.css');
+@import url('../components/Header/header__menu-button.css');
 
 @import url('../components/Movies/movies.css');
 @import url('../components/Movies/SearchForm/search.css');
@@ -100,14 +102,20 @@
 @import url('../components/Movies/SearchForm/search-form__line.css');
 
 @import url('../components/Movies/MoviesCardList/movies-card-list.css');
+@import url('../components/Movies//MoviesCard/movies-card__title-block.css');
 @import url('../components/Movies/MoviesCard/movies-card__title.css');
+@import url('../components/Movies/MoviesCard/movies-card__like.css');
+@import url('../components/Movies/MoviesCard/movies-card__like_isLiked.css');
 @import url('../components/Movies/MoviesCard/movies-card__line.css');
 @import url('../components/Movies/MoviesCard/movies-card__duration.css');
+@import url('../components/Movies/MoviesCard/movies-card__image.css');
+@import url('../components/Movies/MoviesCard/movies-card__delete-button.css');
 
 @import url('../components/Movies/Preloader/preloader.css');
 @import url('../components/Movies/Preloader/preloader__button.css');
 
 @import url('../components/Movies/FilterCheckbox/filter-checkbox.css');
+@import url('../components/Movies/FilterCheckbox/filter-checkbox__container.css');
 @import url('../components/Movies/FilterCheckbox/filter-checkbox__slider.css');
 @import url('../components/Movies/FilterCheckbox/filter-checkbox__input.css');
 @import url('../components/Movies/FilterCheckbox/filter-checkbox__title.css');
@@ -115,3 +123,18 @@
 @import url('../components/NotFound/not-found.css');
 @import url('../components/NotFound/not-found__text.css');
 @import url('../components/NotFound/not-found__title.css');
+
+@import url('../components/Navigation/nav-menu.css');
+@import url('../components/Navigation/nav-menu_is-opened.css');
+@import url('../components/Navigation/nav-menu_is-closed.css');
+@import url('../components/Navigation/nav-menu__close-button.css');
+@import url('../components/Navigation/nav__menu_links.css');
+@import url('../components/Navigation/nav__menu_link.css');
+@import url('../components/Navigation/nav__menu_link-to-main.css');
+@import url('../components/Navigation/nav__menu_link-to-films.css');
+@import url('../components/Navigation/nav__menu_link-to-saved-movies.css');
+@import url('../components/Navigation/nav__menu_profile-link.css');
+@import url('../components/Navigation/nav-wrapper.css');
+@import url('../components/Navigation/nav-wrapper_is-opened.css');
+@import url('../components/Navigation/nav__menu-line.css');
+@import url('../components/Navigation/nav__menu_links_top.css');

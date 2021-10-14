@@ -3,11 +3,13 @@ const moviesData = [
         movie_img: 'movie1.svg',
         title: '33 слова о дизайне',
         duration: '1ч42м',
+        isLiked: true,
     },
     {
         movie_img: 'movie2.svg',
         title: 'Киноальманах «100 лет дизайна»',
         duration: '1ч42м',
+        isLiked: true,
     }, 
     {
         movie_img: 'movie3.svg',
@@ -28,6 +30,7 @@ const moviesData = [
         movie_img: 'movie6.svg',
         title: 'Книготорговцы',
         duration: '1ч42м',
+        isLiked: true,
     },
     {
         movie_img: 'movie7.svg',

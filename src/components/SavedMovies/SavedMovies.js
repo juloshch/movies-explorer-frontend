@@ -2,7 +2,7 @@ import Header from '../Header/header';
 import Footer from '../Footer/Footer';
 import SearchForm from '../Movies/SearchForm/SearchForm';
 import MoviesCardList  from '../Movies/MoviesCardList/MoviesCardList';
-import Preloader from './Preloader/Preloader';
+import Preloader from '../Movies/Preloader/Preloader';
 import Navigation from '../Navigation/navigation';
 import React from 'react';
 
@@ -21,7 +21,7 @@ function Movies() {
         <section className="movies">
             <Header handleMenuOpen={handleMenuOpen}></Header>
             <SearchForm></SearchForm>
-            <MoviesCardList saved={false}/>
+            <MoviesCardList saved={true} />
             <Navigation isOpen={isNavMenuOpen} onClose={handleMenuClose}></Navigation>
             <Preloader></Preloader>
             <Footer></Footer>

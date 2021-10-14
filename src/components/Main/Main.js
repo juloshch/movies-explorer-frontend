@@ -9,6 +9,7 @@ import Portfolio from "../Main/Portfolio/Portfolio";
 import Footer from '../../components/Footer/Footer';
 
 function Main() {
+    
     return (
         <div className="main"> 
             <PromoHeader></PromoHeader>

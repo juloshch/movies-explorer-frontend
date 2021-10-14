@@ -1,5 +1,14 @@
 .header__links {
-    margin-right: 70px;
+    /* margin-right: 70px; */
     display: flex;
     align-items: center;
+    /* display: inline-block;
+    vertical-align: middle; */
+}
+
+@media screen and (max-width: 768px) {
+    .header__links {
+        display: none;
+        /* flex-direction: column; */
+    }
 }

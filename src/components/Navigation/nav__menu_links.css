@@ -1,0 +1,9 @@
+.nav__menu_links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 159px;
+    margin-bottom: 90px;
+    justify-content: space-between;
+    height: 100vh;
+}

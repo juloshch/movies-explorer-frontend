@@ -9,7 +9,16 @@
     color: #000000;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 498px) {
+    .footer__date {
+        margin-top: 30px;
+        font-size: 12px;
+        line-height: 15px;
+        color: #A0A0A0;
+    }
+}
+
+@media screen and (max-width: 425px) {
     .footer__date {
         font-size: 12px;
         line-height: 15px;
