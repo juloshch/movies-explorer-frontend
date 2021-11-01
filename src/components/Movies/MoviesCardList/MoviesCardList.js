@@ -1,10 +1,10 @@
 import MoviesCard from "../MoviesCard/MoviesCard";
 import {moviesData} from '../MoviesData/MoviesData';
 
-function MoviesCardList({ saved }) {
+function MoviesCardList({ saved, cards }) {
     return(
         <article className="movies-card-list">
-            {moviesData.filter(m => (!saved || (saved && m.isLiked))).map((card) => (
+            {cards.map((card) => (
                 <MoviesCard card={card} saved={saved} />
             ))}
         </article>

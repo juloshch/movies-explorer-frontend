@@ -11,9 +11,9 @@ function MoviesCard({ card, saved }) {
     return (
         <article>
             <div className="movies-card">
-                <img className="movies-card__image" src={"./" + card.movie_img} alt="картинка"/>
+                <img className="movies-card__image" src={"https://api.nomoreparties.co" + card.image.url} alt="картинка"/>
                 <div className="movies-card__title-block">
-                    <h2 className="movies-card__title">{card.title}</h2>
+                    <h2 className="movies-card__title">{card.nameRU}</h2>
                     {!saved && <button onClick={handleHeartClick} className={`movies-card__like ${isCardLiked ? 'movies-card__like_isLiked' : ''}`}></button>}
                     {saved && <button className="movies-card__delete-button"></button>}
                 </div>
